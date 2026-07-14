@@ -34,7 +34,7 @@ function App() {
           ))}
         </div>
       )}
-      <AdminPanelWithAuth currentUser={currentUser} />
+      <AdminPanelWithAuth currentUser={currentUser ?? undefined} />
     </div>
   );
 }
